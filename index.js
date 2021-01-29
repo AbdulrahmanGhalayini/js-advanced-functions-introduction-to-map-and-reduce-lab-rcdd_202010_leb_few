@@ -18,6 +18,7 @@ function mapToSquare(s){
   return s.map(x => x*x);
 }
 
+<<<<<<< HEAD
 
 function reduceToTotal(s , a=0){
   const reducer = (accumulator, currentValue) => accumulator + currentValue;
@@ -42,3 +43,12 @@ function reduceToAnyTrue(s ){
 }); 
 }
 
+=======
+// array1.reduce(reducer, 5)
+
+function reduceToTotal(s){
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+  return s.reduce(reducer , let a=0);
+}
+>>>>>>> bcfa9dc70a23181ab6e7463d8bbf6fe6a6e16349
